@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/d_image"
+        android:layout_width="280dp"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_baseline_insert_photo_24" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/title_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add title..."
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textColor="#FF0000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Send"
+            android:textColor="#008EFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

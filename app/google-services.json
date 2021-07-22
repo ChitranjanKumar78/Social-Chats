@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "622522773305",
+    "firebase_url": "https://katnow-11ca8-default-rtdb.firebaseio.com",
+    "project_id": "katnow-11ca8",
+    "storage_bucket": "katnow-11ca8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622522773305:android:f1b928e2df5195ad2502e8",
+        "android_client_info": {
+          "package_name": "com.chitranjank.apps.socialchats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622522773305-qi6dsmrt7r2liaq8k77fmuvtv5am9vt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZffTG6LHeFPtU3qZbzGL561t-9B447U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622522773305-qi6dsmrt7r2liaq8k77fmuvtv5am9vt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622522773305:android:37308fd615dc5ad62502e8",
+        "android_client_info": {
+          "package_name": "com.chitranjank.co.katnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622522773305-qi6dsmrt7r2liaq8k77fmuvtv5am9vt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZffTG6LHeFPtU3qZbzGL561t-9B447U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622522773305-qi6dsmrt7r2liaq8k77fmuvtv5am9vt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

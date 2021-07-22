@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/posted_person"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/user_name_posted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/posted_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caption..."
+        android:maxLines="3"
+        android:padding="3dp" />
+
+    <ImageView
+        android:id="@+id/posted_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>
